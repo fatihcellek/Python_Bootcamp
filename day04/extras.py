@@ -81,4 +81,8 @@ list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 print(reduce(lambda x, y: x + y, list1))
 
-list1
+list2 = ['Java', 'ruby', 'swift', 'CyDeO', 'JavaScript']
+
+print(reduce(lambda x, y: f'{x} {y}', list2))
+
+
