@@ -2,7 +2,7 @@ import json
 import csv
 import os
 
-path = '/day04/files/Test1.txt'
+path = 'files/Test1.txt'
 
 text_file = open(path, 'r')
 
