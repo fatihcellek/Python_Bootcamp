@@ -22,8 +22,29 @@ text_file2 = open(path, 'w')
 
 text_file2.write('This a new text file\nPython created this file')
 
+text_file2 = open(path, 'r')
+
+print(text_file2.read())
+
 text_file2.close()
 
 print('-----------------removing a file-----------------------')
 
 # os.remove('files/Test3.txt')  # file is removed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
