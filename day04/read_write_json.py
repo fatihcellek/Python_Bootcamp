@@ -1,6 +1,4 @@
-# import json that one import all the methods
-from json import load, dumps
-
+import json  # that one import all the methods
 
 path = 'files/Test1.json'
 
@@ -44,3 +42,16 @@ json_object = json.dumps(students, indent=3)  # converting dictionary object to 
 json_file.write(json_object)
 
 print(json_object)
+
+"""
+Web Automation:
+    BeautifulSoup4
+    request
+    pytest
+    robot
+Web Development:
+    Djongo
+    FastAPI
+    flask
+    ... make your own research for the rest options
+"""
